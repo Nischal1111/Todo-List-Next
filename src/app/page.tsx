@@ -9,8 +9,7 @@ function getTodos(){
 
 export default async function Home() {
     const todos= await getTodos()
-  return (<>
-
+  return (<> 
     <header className="flex justify-between mb-4 items-center">
       <h1 className="text-2xl ">Todos</h1>
       <Link className="border p-2 rounded outline-none bg-slate-500 hover:bg-slate-800" href="/new">
