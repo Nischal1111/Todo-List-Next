@@ -20,7 +20,7 @@ export default function Page(){
   return (
     <>
      <header className="flex justify-between mb-4 items-center">
-      <h1 className="text-2xl ">New</h1>
+      <h1 className="text-2xl ">New Todos</h1>
     </header>
     <form action={createTodo}>
       <input type="text" className="text-black" name="todo">
